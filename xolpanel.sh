@@ -6,7 +6,7 @@ rm -rf xolpanel
 rm -rf XolPanel.session
 apt update && apt upgrade
 apt install python3 python3-pip git
-git clone github.com:askykenza/xolpanel.git
+git clone https://github.com/askykenza/xolpanel
 unzip xolpanel/xolpanel.zip
 pip3 install -r xolpanel/requirements.txt
 pip3 install pillow
