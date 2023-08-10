@@ -21,8 +21,8 @@ read -e -p "[*] Masukan NSdomain kamu :" sldomain
 echo -e BOT_TOKEN='"'$bottoken'"' >> /root/xolpanel/var.txt
 echo -e ADMIN='"'$admin'"' >> /root/xolpanel/var.txt
 echo -e DOMAIN='"'$domain'"' >> /root/xolpanel/var.txt
-echo -e SLDOMAIN='"'$sldomain'"' >> /root/xolpanel/var.txt
-echo -e PUB='"fa436bf98f3a477ddfd981c1e80014b46cd1861502d341bc65b488d7622c4d36"' >> /root/xolpanel/var.txt
+#echo -e SLDOMAIN='"'$sldomain'"' >> /root/xolpanel/var.txt
+#echo -e PUB='"fa436bf98f3a477ddfd981c1e80014b46cd1861502d341bc65b488d7622c4d36"' >> /root/xolpanel/var.txt
 
 clear
 echo "Done"
@@ -31,8 +31,8 @@ echo -e "==============================="
 echo "Bot Token     : $bottoken"
 echo "Id Telegram   : $admin"
 echo "Subdomain     : $domain"
-echo "NSdomain      : $sldomain"
-echo "PUBKEY        : fa436bf98f3a477ddfd981c1e80014b46cd1861502d341bc65b488d7622c4d36"
+#echo "NSdomain      : $sldomain"
+#echo "PUBKEY        : fa436bf98f3a477ddfd981c1e80014b46cd1861502d341bc65b488d7622c4d36"
 echo -e "==============================="
 echo "Setting done Please wait 5s"
 sleep 5
