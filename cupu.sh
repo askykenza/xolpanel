@@ -9,7 +9,7 @@ rm -rf service.session
 rm -rf xolpanel
 apt update && apt upgrade
 apt install python3 python3-pip git
-git clone https://github.com/askykenza/xolpanel
+git clone https://github.com/Jengkoltunnel/xolpanel.git
 unzip xolpanel/xolpanel.zip
 pip3 install -r xolpanel/requirements.txt
 pip3 install pillow
@@ -17,7 +17,7 @@ echo ""
 read -e -p "[*] Masukan Bot Token Kamu : " bottoken
 read -e -p "[*] Masukan Id Telegram Kamu :" admin
 read -e -p "[*] Masukan Domain VPSmu :" domain
-read -e -p "[*] Masukan NSdomain kamu :" sldomain
+#read -e -p "[*] Masukan NSdomain kamu :" sldomain
 echo -e BOT_TOKEN='"'$bottoken'"' >> /root/xolpanel/var.txt
 echo -e ADMIN='"'$admin'"' >> /root/xolpanel/var.txt
 echo -e DOMAIN='"'$domain'"' >> /root/xolpanel/var.txt
